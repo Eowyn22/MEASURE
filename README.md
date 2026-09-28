@@ -30,20 +30,6 @@ MEASURE predicts six Kidokoro-protocol biometrics **without voxel-level supervis
 - **Measurement-specific attention pooling** gives each biometric its own spatial weighting.
 - **AAR** regularizes the attention maps: left/right ventricular symmetry, smoothness, and distinctiveness.
 
-## Results
-
-Data: dHCP, 470 term-equivalent subjects (36–42 weeks PMA), simulated 5 mm thick-slice MRI.
-
-| | TCD | BPW | R-VD | L-VD | DGMA | IHD |
-|:--|:-:|:-:|:-:|:-:|:-:|:-:|
-| ICC ↑ | 0.847 | 0.924 | 0.674 | 0.722 | 0.837 | 0.485 |
-| Pearson r ↑ | 0.880 | 0.930 | 0.711 | 0.759 | 0.855 | 0.564 |
-| MAE ↓ | 1.33 | 1.62 | 0.66 | 0.73 | 0.46 | 0.71 |
-
-- Best on all six biometrics against PMA regression, 3D models (SwinUNETR-V2, 3D ViT, BrainAge), and multi-task regressors (MECDS, SePL).
-- For BPW, IHD, L-VD, and R-VD, the model's agreement with the expert is tighter than the expert's own re-measurement 3+ months later (Bland–Altman).
-- The selector's Recall@2 is 0.967–1.00 across tasks.
-
 **Limitations:** simulated thick-slice data, a single site, and a single rater. Validation on real clinical scans is future work.
 
 ## Citation
