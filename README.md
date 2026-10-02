@@ -35,15 +35,13 @@ MEASURE predicts six Kidokoro-protocol biometrics **without voxel-level supervis
 ## Citation
 
 ```bibtex
-@InProceedings{LeeJiy_MEASURE_MICCAI2026,
-        author = { Lee, Jiyang AND Bae, Woori AND Kim, Dabin AND Lee, Jong-Min AND Kim, Seh Hyun},
-        title = { { MEASURE: Multi-Task Slice Selection and Regression for Neonatal Brain Biometry } },
-        booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026},
-        year = {2026},
-        publisher = {Springer Nature Switzerland},
-        volume = {LNCS 16894},
-        month = {September},
-        page = {pending}
+@inproceedings{lee2026measure,
+  title={MEASURE: Multi-task Slice Selection and Regression for Neonatal Brain Biometry},
+  author={Lee, Jiyang and Bae, Woori and Kim, Dabin and Lee, Jong-Min and Kim, Seh Hyun},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={351--361},
+  year={2026},
+  organization={Springer}
 }
 ```
 
